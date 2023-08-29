@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #000;
+    color: white;
+}
+ul,li,ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+main {
+    flex-grow: 1;
+}
+.header {
+    padding-top: 30px;
+}
+.navigation,
+.menu-list,
+.profi-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation-menu {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-profi {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100px;
+}
+.header-logo {
+    padding-right: 30%;
+}
+.main {
+    margin-top: 600px;
+}
+
+
+/*
+swiper slider
+*/
+
+.swiper {
+    width: 100%;
+    height: 600px;
+  }
+.swiper-pagination {
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+}
+.swiper-pagination-bullet{ 
+    background: green;
+    width: 20px;
+    height: 20px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(1){
+    background: #973030;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(1)::before{
+    content: ''
+}
+.swiper-pagination-bullet:nth-child(2){
+    background: #9B0E95;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(3){
+    background: #002B7B;
+    position: absolute;
+    top: 125px;
+    left: 155px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(4){
+    background: #000000;
+    position: absolute;
+    top: 204px;
+    left: 165px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(5){
+    background: #A8000A;
+    position: absolute;
+    top: 272px;
+    left: 145px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(6){
+    background: #86942F;
+    position: absolute;
+    top: 340px;
+    left: 90px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet:nth-child(7){
+    background: #3D996D;
+    position: absolute;
+    top: 408px;
+    left: 0px;
+    border: #fff solid 2px;
+}
+.swiper-pagination-bullet-active {
+    width: 25px;
+    height: 25px;
+}
+.swiper-pagination-bullet {
+    opacity: 1;
+}
+
+
+/* logo-image*/
+
+.image {
+    position: relative;
+}
+.logo-image {
+    position: absolute;
+    top: 0px;
+}
